@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>geometry genius</title>
+  <!-- from daisyui -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.9.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- from tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+  <header>
+
+  </header>
+  <main>
+    <!-- main content container  -->
+    <div>
+      <!-- shape card container  -->
+      <div class="flex gap-4 p-3">
+        <!-- triangle card 1-->
+        <div class="card h-auto w-96 bg-base-100 shadow-xl">
+          <figure><img src="images/triangle.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <div id="description">
+            <h2 class="font-bold text-xl text-center">Triangle!</h2>
+            <p class="text-center">Area (A) = 0.5 *b* h</p>
+            </div>
+            <div class="flex gap-3 border-zinc-950	border-solid">
+              <input id = "base-in" class="w-36 h-11 bg-slate-300 border border-gray-300 rounded focus:outline-none focus:border-blue-500 text-gray-700 shadow-md cursor-pointer placeholder-gray-400" type="text" placeholder="base">
+              <input id = "hight-in" class="w-36 h-11 bg-slate-300 border border-gray-300 rounded focus:outline-none focus:border-blue-500 text-gray-700 shadow-md cursor-pointer placeholder-gray-400" type="text" placeholder="hight">
+            </div>
+            <div class="card-actions justify-center">
+              <button id ="cal-btn" class="btn btn-primary w-80 h-12">Calculate</button>
+            </div>
+          </div>
+        </div>      
+        
+      
+      
+    </div>
+  </main>
+</body>
+<script src="app.js"></script>
+</html>
